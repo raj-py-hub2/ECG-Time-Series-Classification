@@ -1,6 +1,6 @@
 # ECG-Time-Series-Classification
 
-Comparison of Models
+# Comparison of Models
 
 In the task of ECG time-series classification, three models—1D CNN, 2D CNN, and a Multi-class Neural Network—were compared based on their accuracy and classification metrics.
 
@@ -16,7 +16,7 @@ In the task of ECG time-series classification, three models—1D CNN, 2D CNN, an
 
 
 
-Advantages of Using the 2D CNN:
+# Advantages of Using the 2D CNN:
 
 Higher Accuracy and Robustness: The 2D CNN achieved the best overall accuracy, demonstrating superior ability to extract features from ECG data by leveraging spatial relationships.
 
@@ -26,6 +26,6 @@ Advantages of Using the 2D CNN:
 
 Improved Generalization: The higher precision, recall, and F1-scores across all classes indicate better generalization to unseen data compared to the other models.
 
-Why Choose the 2D CNN Over Others?
+# Why Choose the 2D CNN Over Others?
 
 While the 1D CNN and Multi-class Neural Network are computationally less demanding, the 2D CNN's ability to leverage spatial relationships in the ECG data gives it a critical edge for accuracy and reliability. This is particularly important in medical diagnostics, where even small improvements in classification performance can lead to significant real-world benefits, such as earlier and more accurate detection of cardiac abnormalities. The slightly higher computational cost of the 2D CNN is justified by its superior performance and potential to reduce diagnostic errors.
