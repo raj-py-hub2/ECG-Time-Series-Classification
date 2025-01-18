@@ -5,8 +5,8 @@
 In the task of ECG time-series classification, three models—1D CNN, 2D CNN, and a Multi-class Neural Network—were compared based on their accuracy and classification metrics.
 
 1.The 1D CNN achieved an accuracy of 93.60% and demonstrated strong performance across all classes, with particularly high true positive (TP) rates for Class 4 (0.99) and Class 2 (0.97). Its classification report highlights balanced precision, recall, and F1-scores for all classes, indicating robust generalization and accurate predictions for the time-series data.
-
-
+![Image alt]([image_url](https://github.com/raj-py-hub2/ECG-Time-Series-Classification/blob/b6a9cc605d18867154bb2723b6b1cbce416b04f2/Multi_class_neural_network_model_improved%20confusion%20matrix.png
+)
 
 2.The 2D CNN, designed to leverage spatial relationships, outperformed the 1D CNN slightly, with an accuracy of 93.97%. It exhibited slightly better recall for Classes 0, 2, and 3 compared to the 1D CNN and maintained high precision and F1-scores across all categories. Its TP rates were consistently high, particularly for Class 4 (0.98) and Class 2 (0.96).
 
